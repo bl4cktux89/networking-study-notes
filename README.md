@@ -71,4 +71,9 @@ protocolos usados pela VPN:
 - PPTP / point-to-point tunneling protocol
     - é um sistema mais antigo de VPN que suporta o sistema de discagem
 - TLS / transport layer security protocol
-    -
+    - é um protocolo criptográfico usado para criar uma conexão segura criptografada entre dois dispositivos finais ou aplicações
+    - usa criptografia assimétrica para autenticar end points e então negocia uma chave de segurança simétrica que é usada para encriptar a sessão
+    - substituiu o SSL
+    - funciona na camada 5 e acima do modelo OSI
+    - o uso mais comum é para criar uma sessão de internet segura e criptografada (SSL VPN)
+    - todos os browsers modernos suportam o TLS
