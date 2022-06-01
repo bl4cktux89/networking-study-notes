@@ -49,3 +49,26 @@ O modelo OSI foi desenvolvido para ajudar os equipamentos de diferentes modelos 
 - IPS faz o monitoramento ativo da rede e irá tomar uma ação quando detectar ações maliciosas
 - load balancer divide o tráfego entre os diversos dispositos que possuem o mesmo conteúdo
 - proxy server age como se fosse um dispositivo cliente para realizar requisições, proxy reverso se comporta como se fosse o servidor
+
+### VPN
+é a conexão usada por hosts remotos para acessar uma rede privada através de um túnel criptografado através de uma rede pública
+- uma vez conectado, o host não é mais considerado remoto, mas sim, um host local
+tipos de VPN:
+- site-to-site
+- remote-access VPN / host-to-site VPN
+- host-to-host VPN / SSL VPN
+protocolos usados pela VPN:
+- IPsec
+    - authentication header (AH) - autentica
+    - encapsulating security payload (ESP)
+    - operam em um ou dois modos:
+        - transport mode
+        - tunnel mode
+    - implementa internet security association and key management (ISAKMP) por padrão
+- GRE
+    - é um sistema de tunelamento que é capaz de engapsular uma variedade grande de protocolos da camada de rede
+    - pode ser usado para criar um tunel dentro de uma conexão IPsec
+- PPTP / point-to-point tunneling protocol
+    - é um sistema mais antigo de VPN que suporta o sistema de discagem
+- TLS / transport layer security protocol
+    -
